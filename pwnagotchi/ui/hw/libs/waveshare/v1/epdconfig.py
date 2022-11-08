@@ -35,10 +35,10 @@ import time
 
 class RaspberryPi:
     # Pin definition
-    RST_PIN         = 17
-    DC_PIN          = 25
-    CS_PIN          = 8
-    BUSY_PIN        = 24
+    RST_PIN         = 13
+    DC_PIN          = 6
+    CS_PIN          = 5
+    BUSY_PIN        = 19
 
     def __init__(self):
         import spidev
